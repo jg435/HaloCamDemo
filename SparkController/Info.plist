@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>SparkController</string>
+	<key>CFBundleDisplayName</key>
+	<string>Spark Controller</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>DJISDKAppKey</key>
+	<string>6446d2a1ffebe0ae20bd75c9</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Used to connect to DJI products via Bluetooth</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Used to connect to DJI products via Bluetooth</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Used to connect to DJI products via WiFi</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Used to show your location on the map</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Voice control for the drone.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Needed to capture voice commands.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Save photos captured by the drone to your photo library.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.dji.video</string>
+		<string>com.dji.protocol</string>
+		<string>com.dji.common</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

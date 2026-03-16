@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44DC58132ED3CFD500AA2517 /* PhotoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DC58122ED3CFD500AA2517 /* PhotoDownloader.swift */; };
+		44DC58152ED3D67100AA2517 /* VideoFeedCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DC58142ED3D67100AA2517 /* VideoFeedCapture.swift */; };
+		98A08D2A10B8D0F68B5961C5 /* Pods_SparkController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9332B9E9D553261178A6E3 /* Pods_SparkController.framework */; };
+		99067B09AB0E54B8C489DEBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA6852685CAB0B29B0A2C74 /* LaunchScreen.storyboard */; };
+		A1B2C3D4E5F6A7B8C9D0E1F2 /* VoiceCommandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F6A7B8C9D0E1F2A3 /* VoiceCommandController.swift */; };
+		C3D4E5F6A7B8C9D0E1F2A3B4 /* DroneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5F6A7B8C9D0E1F2A3B4C5 /* DroneController.swift */; };
+		D3F6F7D9F01056987AD8D381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD42458E205CC7A0C3DCEEB /* AppDelegate.swift */; };
+		E5F6A7B8C9D0E1F2A3B4C5D6 /* DroneIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A7B8C9D0E1F2A3B4C5D6E7 /* DroneIntent.swift */; };
+		F92A165BA9D0842863A9FF55 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869888A0EABA0DC95C710BC5 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10B5E138106662BE593FCC2B /* SparkController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DC58122ED3CFD500AA2517 /* PhotoDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDownloader.swift; sourceTree = "<group>"; };
+		44DC58142ED3D67100AA2517 /* VideoFeedCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeedCapture.swift; sourceTree = "<group>"; };
+		711A2BC0AE8F82081F2BC360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		75563D4F72D9770C736CB2D5 /* Pods-SparkController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkController.debug.xcconfig"; path = "Target Support Files/Pods-SparkController/Pods-SparkController.debug.xcconfig"; sourceTree = "<group>"; };
+		869888A0EABA0DC95C710BC5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9F9332B9E9D553261178A6E3 /* Pods_SparkController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C3D4E5F6A7B8C9D0E1F2A3 /* VoiceCommandController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCommandController.swift; sourceTree = "<group>"; };
+		BDA6852685CAB0B29B0A2C74 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDD42458E205CC7A0C3DCEEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4E5F6A7B8C9D0E1F2A3B4C5 /* DroneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneController.swift; sourceTree = "<group>"; };
+		D81DCA47868E979397FC90A6 /* Pods-SparkController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkController.release.xcconfig"; path = "Target Support Files/Pods-SparkController/Pods-SparkController.release.xcconfig"; sourceTree = "<group>"; };
+		F6A7B8C9D0E1F2A3B4C5D6E7 /* DroneIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneIntent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D5EFB5A7811764B8FED1F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A08D2A10B8D0F68B5961C5 /* Pods_SparkController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63AA3ECEF74083B224D6BC52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75563D4F72D9770C736CB2D5 /* Pods-SparkController.debug.xcconfig */,
+				D81DCA47868E979397FC90A6 /* Pods-SparkController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8EE1DFD6117CFC01286B090F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10B5E138106662BE593FCC2B /* SparkController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		995CD1A5B8DA2DC72229F1E9 = {
+			isa = PBXGroup;
+			children = (
+				CB3102FAC5512B658100C4D8 /* SparkController */,
+				8EE1DFD6117CFC01286B090F /* Products */,
+				63AA3ECEF74083B224D6BC52 /* Pods */,
+				FCAC53AF2DC43334BE3D02C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB3102FAC5512B658100C4D8 /* SparkController */ = {
+			isa = PBXGroup;
+			children = (
+				44DC58142ED3D67100AA2517 /* VideoFeedCapture.swift */,
+				44DC58122ED3CFD500AA2517 /* PhotoDownloader.swift */,
+				BDD42458E205CC7A0C3DCEEB /* AppDelegate.swift */,
+				711A2BC0AE8F82081F2BC360 /* Info.plist */,
+				BDA6852685CAB0B29B0A2C74 /* LaunchScreen.storyboard */,
+				869888A0EABA0DC95C710BC5 /* MainViewController.swift */,
+				B2C3D4E5F6A7B8C9D0E1F2A3 /* VoiceCommandController.swift */,
+				D4E5F6A7B8C9D0E1F2A3B4C5 /* DroneController.swift */,
+				F6A7B8C9D0E1F2A3B4C5D6E7 /* DroneIntent.swift */,
+			);
+			path = SparkController;
+			sourceTree = "<group>";
+		};
+		FCAC53AF2DC43334BE3D02C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F9332B9E9D553261178A6E3 /* Pods_SparkController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A443BFED6A310C406CAC87C9 /* SparkController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC3F829A3620DF7B21BA6AF /* Build configuration list for PBXNativeTarget "SparkController" */;
+			buildPhases = (
+				D3B8FBD6FEA42381F9E0BCAA /* [CP] Check Pods Manifest.lock */,
+				BD29BD68156132F5CCFA709B /* Sources */,
+				797A79E27B4AFDEB5EA4F755 /* Resources */,
+				6D5EFB5A7811764B8FED1F4F /* Frameworks */,
+				3E7177A7A127DAC431F74D24 /* [CP] Embed Pods Frameworks */,
+				0C1F25C03853580D7A6BD694 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkController;
+			productName = SparkController;
+			productReference = 10B5E138106662BE593FCC2B /* SparkController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A808CCA9FCEEBE4B7470F8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A443BFED6A310C406CAC87C9 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3DA053138B0C295650CE3DDA /* Build configuration list for PBXProject "SparkController" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 995CD1A5B8DA2DC72229F1E9;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = 8EE1DFD6117CFC01286B090F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A443BFED6A310C406CAC87C9 /* SparkController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797A79E27B4AFDEB5EA4F755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99067B09AB0E54B8C489DEBD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1F25C03853580D7A6BD694 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E7177A7A127DAC431F74D24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B8FBD6FEA42381F9E0BCAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparkController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD29BD68156132F5CCFA709B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DC58152ED3D67100AA2517 /* VideoFeedCapture.swift in Sources */,
+				D3F6F7D9F01056987AD8D381 /* AppDelegate.swift in Sources */,
+				44DC58132ED3CFD500AA2517 /* PhotoDownloader.swift in Sources */,
+				F92A165BA9D0842863A9FF55 /* MainViewController.swift in Sources */,
+				A1B2C3D4E5F6A7B8C9D0E1F2 /* VoiceCommandController.swift in Sources */,
+				C3D4E5F6A7B8C9D0E1F2A3B4 /* DroneController.swift in Sources */,
+				E5F6A7B8C9D0E1F2A3B4C5D6 /* DroneIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07D7243EFAE540158587F9A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		28BDC1657983DBF4A4F31037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		33E5E82EDF8FB841889DD460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75563D4F72D9770C736CB2D5 /* Pods-SparkController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNKJTY69F;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SparkController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.SparkController;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD33710CB1F6F94E6D028C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81DCA47868E979397FC90A6 /* Pods-SparkController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNKJTY69F;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SparkController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.SparkController;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CC3F829A3620DF7B21BA6AF /* Build configuration list for PBXNativeTarget "SparkController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E5E82EDF8FB841889DD460 /* Debug */,
+				DD33710CB1F6F94E6D028C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3DA053138B0C295650CE3DDA /* Build configuration list for PBXProject "SparkController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BDC1657983DBF4A4F31037 /* Debug */,
+				07D7243EFAE540158587F9A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A808CCA9FCEEBE4B7470F8F /* Project object */;
+}

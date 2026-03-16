@@ -1,0 +1,18 @@
+name: SparkController
+options:
+  bundleIdPrefix: com.yourcompany
+  deploymentTarget:
+    iOS: "13.0"
+
+targets:
+  SparkController:
+    type: application
+    platform: iOS
+    sources:
+      - SparkController
+    settings:
+      base:
+        INFOPLIST_FILE: SparkController/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.yourcompany.SparkController
+        ENABLE_BITCODE: NO
+        CODE_SIGN_STYLE: Automatic
