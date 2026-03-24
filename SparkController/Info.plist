@@ -32,6 +32,15 @@
 	<string>Needed to capture voice commands.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Save photos captured by the drone to your photo library.</string>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_halocam-data._tcp</string>
+		<string>_halocam-data._udp</string>
+	</array>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

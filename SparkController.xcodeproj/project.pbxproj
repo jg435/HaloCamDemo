@@ -7,52 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44DC58132ED3CFD500AA2517 /* PhotoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DC58122ED3CFD500AA2517 /* PhotoDownloader.swift */; };
-		44DC58152ED3D67100AA2517 /* VideoFeedCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DC58142ED3D67100AA2517 /* VideoFeedCapture.swift */; };
-		98A08D2A10B8D0F68B5961C5 /* Pods_SparkController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9332B9E9D553261178A6E3 /* Pods_SparkController.framework */; };
+		01714CB540520C2E135D3A37 /* DroneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7546F128913D1B268FAB3C47 /* DroneController.swift */; };
+		15EB57F04DD84732416A3A44 /* VoiceCommandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC8AAFCB8DC0AB222FA89C /* VoiceCommandController.swift */; };
+		2578611AC11D69910B51C3B6 /* VideoFeedCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B243CE7D00F407031CB7CD /* VideoFeedCapture.swift */; };
+		6033BE4C8F975DB9A4B15D69 /* PhotoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ED15794DEF546E35CF47F /* PhotoDownloader.swift */; };
 		99067B09AB0E54B8C489DEBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA6852685CAB0B29B0A2C74 /* LaunchScreen.storyboard */; };
-		A1B2C3D4E5F6A7B8C9D0E1F2 /* VoiceCommandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F6A7B8C9D0E1F2A3 /* VoiceCommandController.swift */; };
-		C3D4E5F6A7B8C9D0E1F2A3B4 /* DroneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5F6A7B8C9D0E1F2A3B4C5 /* DroneController.swift */; };
+		9F1E00B17B07A05EF2951142 /* StabilizationAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B49B3C3C956D61D25C599 /* StabilizationAgent.swift */; };
+		A4EF6CB6AA1EA37F320BDE45 /* PeerStreamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD487FF94372341DD8EB239 /* PeerStreamService.swift */; };
 		D3F6F7D9F01056987AD8D381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD42458E205CC7A0C3DCEEB /* AppDelegate.swift */; };
-		E5F6A7B8C9D0E1F2A3B4C5D6 /* DroneIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A7B8C9D0E1F2A3B4C5D6E7 /* DroneIntent.swift */; };
+		D71D07F0875CA9770AC2DEC1 /* LLMIntentResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FBA8808D20587E27A7625 /* LLMIntentResolver.swift */; };
+		DF9FD048294F986F11939346 /* Pods_SparkController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1752471704F6D5522DF24219 /* Pods_SparkController.framework */; };
+		E13800FEC00F7A9AA6874917 /* FlightDataRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1324B4160AA1244C387B85 /* FlightDataRecorder.swift */; };
+		F0EE38984E2FE9E80D643658 /* DroneIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83745699D3AA61CBE8590605 /* DroneIntent.swift */; };
 		F92A165BA9D0842863A9FF55 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869888A0EABA0DC95C710BC5 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10B5E138106662BE593FCC2B /* SparkController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		44DC58122ED3CFD500AA2517 /* PhotoDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDownloader.swift; sourceTree = "<group>"; };
-		44DC58142ED3D67100AA2517 /* VideoFeedCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeedCapture.swift; sourceTree = "<group>"; };
+		1752471704F6D5522DF24219 /* Pods_SparkController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3B49B3C3C956D61D25C599 /* StabilizationAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabilizationAgent.swift; sourceTree = "<group>"; };
+		1CD487FF94372341DD8EB239 /* PeerStreamService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerStreamService.swift; sourceTree = "<group>"; };
+		1F1324B4160AA1244C387B85 /* FlightDataRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDataRecorder.swift; sourceTree = "<group>"; };
+		273ED15794DEF546E35CF47F /* PhotoDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDownloader.swift; sourceTree = "<group>"; };
+		3079A1AB7EB6C728B6BF58D2 /* Pods-SparkController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkController.debug.xcconfig"; path = "Target Support Files/Pods-SparkController/Pods-SparkController.debug.xcconfig"; sourceTree = "<group>"; };
+		41BC8AAFCB8DC0AB222FA89C /* VoiceCommandController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCommandController.swift; sourceTree = "<group>"; };
+		6FC6C62319B7332B80661B6A /* Pods-SparkController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkController.release.xcconfig"; path = "Target Support Files/Pods-SparkController/Pods-SparkController.release.xcconfig"; sourceTree = "<group>"; };
 		711A2BC0AE8F82081F2BC360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		75563D4F72D9770C736CB2D5 /* Pods-SparkController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkController.debug.xcconfig"; path = "Target Support Files/Pods-SparkController/Pods-SparkController.debug.xcconfig"; sourceTree = "<group>"; };
+		73B243CE7D00F407031CB7CD /* VideoFeedCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeedCapture.swift; sourceTree = "<group>"; };
+		7546F128913D1B268FAB3C47 /* DroneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneController.swift; sourceTree = "<group>"; };
+		83745699D3AA61CBE8590605 /* DroneIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneIntent.swift; sourceTree = "<group>"; };
 		869888A0EABA0DC95C710BC5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		9F9332B9E9D553261178A6E3 /* Pods_SparkController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2C3D4E5F6A7B8C9D0E1F2A3 /* VoiceCommandController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCommandController.swift; sourceTree = "<group>"; };
 		BDA6852685CAB0B29B0A2C74 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD42458E205CC7A0C3DCEEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4E5F6A7B8C9D0E1F2A3B4C5 /* DroneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneController.swift; sourceTree = "<group>"; };
-		D81DCA47868E979397FC90A6 /* Pods-SparkController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkController.release.xcconfig"; path = "Target Support Files/Pods-SparkController/Pods-SparkController.release.xcconfig"; sourceTree = "<group>"; };
-		F6A7B8C9D0E1F2A3B4C5D6E7 /* DroneIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneIntent.swift; sourceTree = "<group>"; };
+		D92FBA8808D20587E27A7625 /* LLMIntentResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMIntentResolver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D5EFB5A7811764B8FED1F4F /* Frameworks */ = {
+		EFAC3CB864918B34B5F17E99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98A08D2A10B8D0F68B5961C5 /* Pods_SparkController.framework in Frameworks */,
+				DF9FD048294F986F11939346 /* Pods_SparkController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63AA3ECEF74083B224D6BC52 /* Pods */ = {
+		103E019FF8ECB1A78C1FA555 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				75563D4F72D9770C736CB2D5 /* Pods-SparkController.debug.xcconfig */,
-				D81DCA47868E979397FC90A6 /* Pods-SparkController.release.xcconfig */,
+				1752471704F6D5522DF24219 /* Pods_SparkController.framework */,
 			);
-			path = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8EE1DFD6117CFC01286B090F /* Products */ = {
@@ -68,33 +75,39 @@
 			children = (
 				CB3102FAC5512B658100C4D8 /* SparkController */,
 				8EE1DFD6117CFC01286B090F /* Products */,
-				63AA3ECEF74083B224D6BC52 /* Pods */,
-				FCAC53AF2DC43334BE3D02C0 /* Frameworks */,
+				C01D97C03465CF7519875464 /* Pods */,
+				103E019FF8ECB1A78C1FA555 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		C01D97C03465CF7519875464 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3079A1AB7EB6C728B6BF58D2 /* Pods-SparkController.debug.xcconfig */,
+				6FC6C62319B7332B80661B6A /* Pods-SparkController.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		CB3102FAC5512B658100C4D8 /* SparkController */ = {
 			isa = PBXGroup;
 			children = (
-				44DC58142ED3D67100AA2517 /* VideoFeedCapture.swift */,
-				44DC58122ED3CFD500AA2517 /* PhotoDownloader.swift */,
 				BDD42458E205CC7A0C3DCEEB /* AppDelegate.swift */,
+				7546F128913D1B268FAB3C47 /* DroneController.swift */,
+				83745699D3AA61CBE8590605 /* DroneIntent.swift */,
+				1F1324B4160AA1244C387B85 /* FlightDataRecorder.swift */,
 				711A2BC0AE8F82081F2BC360 /* Info.plist */,
 				BDA6852685CAB0B29B0A2C74 /* LaunchScreen.storyboard */,
+				D92FBA8808D20587E27A7625 /* LLMIntentResolver.swift */,
 				869888A0EABA0DC95C710BC5 /* MainViewController.swift */,
-				B2C3D4E5F6A7B8C9D0E1F2A3 /* VoiceCommandController.swift */,
-				D4E5F6A7B8C9D0E1F2A3B4C5 /* DroneController.swift */,
-				F6A7B8C9D0E1F2A3B4C5D6E7 /* DroneIntent.swift */,
+				1CD487FF94372341DD8EB239 /* PeerStreamService.swift */,
+				273ED15794DEF546E35CF47F /* PhotoDownloader.swift */,
+				1B3B49B3C3C956D61D25C599 /* StabilizationAgent.swift */,
+				73B243CE7D00F407031CB7CD /* VideoFeedCapture.swift */,
+				41BC8AAFCB8DC0AB222FA89C /* VoiceCommandController.swift */,
 			);
 			path = SparkController;
-			sourceTree = "<group>";
-		};
-		FCAC53AF2DC43334BE3D02C0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9F9332B9E9D553261178A6E3 /* Pods_SparkController.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,12 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CC3F829A3620DF7B21BA6AF /* Build configuration list for PBXNativeTarget "SparkController" */;
 			buildPhases = (
-				D3B8FBD6FEA42381F9E0BCAA /* [CP] Check Pods Manifest.lock */,
+				C71F9F9B0206C27CD97D5763 /* [CP] Check Pods Manifest.lock */,
 				BD29BD68156132F5CCFA709B /* Sources */,
 				797A79E27B4AFDEB5EA4F755 /* Resources */,
-				6D5EFB5A7811764B8FED1F4F /* Frameworks */,
-				3E7177A7A127DAC431F74D24 /* [CP] Embed Pods Frameworks */,
-				0C1F25C03853580D7A6BD694 /* [CP] Copy Pods Resources */,
+				EFAC3CB864918B34B5F17E99 /* Frameworks */,
+				D98C655623DE7E85298448CA /* [CP] Embed Pods Frameworks */,
+				B5A7709F387FE757DAFF2FBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,7 +178,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C1F25C03853580D7A6BD694 /* [CP] Copy Pods Resources */ = {
+		B5A7709F387FE757DAFF2FBF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -182,24 +195,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3E7177A7A127DAC431F74D24 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D3B8FBD6FEA42381F9E0BCAA /* [CP] Check Pods Manifest.lock */ = {
+		C71F9F9B0206C27CD97D5763 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -221,6 +217,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D98C655623DE7E85298448CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkController/Pods-SparkController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -228,13 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44DC58152ED3D67100AA2517 /* VideoFeedCapture.swift in Sources */,
 				D3F6F7D9F01056987AD8D381 /* AppDelegate.swift in Sources */,
-				44DC58132ED3CFD500AA2517 /* PhotoDownloader.swift in Sources */,
+				01714CB540520C2E135D3A37 /* DroneController.swift in Sources */,
+				F0EE38984E2FE9E80D643658 /* DroneIntent.swift in Sources */,
+				E13800FEC00F7A9AA6874917 /* FlightDataRecorder.swift in Sources */,
+				D71D07F0875CA9770AC2DEC1 /* LLMIntentResolver.swift in Sources */,
 				F92A165BA9D0842863A9FF55 /* MainViewController.swift in Sources */,
-				A1B2C3D4E5F6A7B8C9D0E1F2 /* VoiceCommandController.swift in Sources */,
-				C3D4E5F6A7B8C9D0E1F2A3B4 /* DroneController.swift in Sources */,
-				E5F6A7B8C9D0E1F2A3B4C5D6 /* DroneIntent.swift in Sources */,
+				A4EF6CB6AA1EA37F320BDE45 /* PeerStreamService.swift in Sources */,
+				6033BE4C8F975DB9A4B15D69 /* PhotoDownloader.swift in Sources */,
+				9F1E00B17B07A05EF2951142 /* StabilizationAgent.swift in Sources */,
+				2578611AC11D69910B51C3B6 /* VideoFeedCapture.swift in Sources */,
+				15EB57F04DD84732416A3A44 /* VoiceCommandController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -362,7 +379,7 @@
 		};
 		33E5E82EDF8FB841889DD460 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75563D4F72D9770C736CB2D5 /* Pods-SparkController.debug.xcconfig */;
+			baseConfigurationReference = 3079A1AB7EB6C728B6BF58D2 /* Pods-SparkController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -382,7 +399,7 @@
 		};
 		DD33710CB1F6F94E6D028C70 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D81DCA47868E979397FC90A6 /* Pods-SparkController.release.xcconfig */;
+			baseConfigurationReference = 6FC6C62319B7332B80661B6A /* Pods-SparkController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

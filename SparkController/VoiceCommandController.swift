@@ -18,6 +18,10 @@ final class VoiceCommandController: NSObject {
     /// Called on main thread when we successfully map a command.
     /// Parameters: (rawText: String, intent: DroneIntent)
     var onIntentDetected: ((String, DroneIntent) -> Void)?
+
+    /// Called on main thread when keyword parsing fails — gives the LLM a chance.
+    /// Parameter: rawText
+    var onUnmatchedText: ((String) -> Void)?
     
     private(set) var isListening: Bool = false
     private var isStopping: Bool = false
@@ -151,7 +155,10 @@ final class VoiceCommandController: NSObject {
                 self.onIntentDetected?(text, intent)
             }
         } else {
-            print("No intent matched for: \(text)")
+            print("No keyword match for: \(text) — forwarding to LLM")
+            DispatchQueue.main.async {
+                self.onUnmatchedText?(text)
+            }
         }
     }
 }

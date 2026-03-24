@@ -20,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("Running in Simulator - DJI SDK disabled")
         #endif
 
+        // OpenRouter API key for Claude LLM voice command fallback
+        LLMIntentResolver.shared.apiKey = "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"
+
         return true
     }
 }
